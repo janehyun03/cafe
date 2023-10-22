@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+body {
+  background-color: #fff9f7;
+  color: #444444;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .container {
   padding-left: 5vh;
   padding-right: 5vh;
@@ -13,15 +20,6 @@
   width: 100%;
   height: 100%;
   margin-bottom: 1.5em;
-}
-
-body {
-  background-color: #fff9f7;
-  color: #444444;
-  padding-left: 5vh;
-  padding-right: 5vh;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 h1 {
