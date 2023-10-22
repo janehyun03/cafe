@@ -3,24 +3,25 @@
   padding: 0;
 }
 
+.container {
+  padding-left: 5vh;
+  padding-right: 5vh;
+  max-width: 600px;
+  margin-inline: auto;
+}
 .coffe-img {
   width: 100%;
   height: 100%;
-  margin-bottom: 15px;
-}
-
-.logo {
-  width: 100px;
-  height: 100px;
+  margin-bottom: 1.5em;
 }
 
 body {
   background-color: #fff9f7;
   color: #444444;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 h1 {
@@ -28,14 +29,13 @@ h1 {
   color: #cb8522;
   /* color: #b57214; */
   /* color: #45321b; */
-  margin-bottom: 15px;
-  margin-top: 40px;
+  margin-bottom: 0.2em;
+  margin-top: 1em;
 }
 
 h4 {
-  letter-spacing: 1.5px;
   color: #4b4b4b;
-  margin-bottom: 10px;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -45,39 +45,26 @@ h3 {
   letter-spacing: 1.5px;
 }
 
-hr {
-  margin-bottom: 30px;
-}
-
-.when {
-  margin-bottom: 3px;
-  font-size: 14px;
-  letter-spacing: 1.2px;
-}
-
-.location {
-  margin-bottom: 3px;
-  font-size: 14px;
-  letter-spacing: 1.2px;
-}
-
+.when,
+.location,
 .contact {
-  font-size: 14px;
+  margin-bottom: 0.4em;
+  font-size: 0.8rem;
   letter-spacing: 1.2px;
 }
 
 .phon-icone {
-  width: 10px;
-  height: 10px;
-  margin-right: 7px;
+  width: 0.7em;
+  height: 0.7em;
+  margin-right: 0.5em;
   display: inline-block;
 }
 
 .contact-wrap {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin-bottom: 15px;
+  align-items: top;
+  margin-bottom: 1em;
 }
 
 .page {
@@ -93,8 +80,8 @@ hr {
   background-color: antiquewhite;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   body {
     padding: 0;
   }
-}
+} */

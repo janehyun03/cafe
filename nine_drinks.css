@@ -83,3 +83,17 @@ body {
   padding: 10px;
   background-color: antiquewhite;
 }
+
+/* @media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+  iframe {
+    margin: 0;
+  }
+}
+
+~792 - 1column
+~1507 - 2column
+1507~  - 3column
+phone -375 */
