@@ -19,6 +19,27 @@ body {
   margin-bottom: 3rem;
 }
 
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.page a {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: antiquewhite;
+  color: #444444;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+.page a:hover,
+.page a:active {
+  background-color: #cb8522;
+}
+
 .box {
   border: 1px solid black;
   margin-top: 1.5rem;
@@ -78,33 +99,6 @@ body {
   width: 25ch;
   line-height: 1.1;
 }
-
-.page {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: end;
-}
-
-.page a {
-  text-decoration: none;
-  margin: 10px;
-  padding: 10px;
-  background-color: antiquewhite;
-}
-
-/* @media screen and (max-width: 600px) {
-  body {
-    padding: 0;
-  }
-  iframe {
-    margin: 0;
-  }
-}
-
-~792 - 1column
-~1507 - 2column
-1507~  - 3column
-phone -375 */
 
 @media (792px <= width <= 1507px) {
   .gride {

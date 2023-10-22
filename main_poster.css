@@ -28,6 +28,14 @@ body {
   margin: 10px;
   padding: 10px;
   background-color: antiquewhite;
+  color: #444444;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+.page a:hover,
+.page a:active {
+  background-color: #cb8522;
 }
 
 h1 {
@@ -40,7 +48,7 @@ h1 {
 }
 
 .subtitle {
-  color: #4b4b4b;
+  color: #444444;
   margin-bottom: 1.5rem;
 }
 
@@ -77,4 +85,8 @@ h1 {
   height: 0.7em;
   margin-right: 0.5em;
   display: inline-block;
+}
+
+.contact {
+  text-decoration: none;
 }
