@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   /* border: 1px solid red; */
 }
 body {
@@ -73,8 +72,8 @@ ul li {
   display: flex;
   justify-content: center;
 
-  padding: 2px;
-  margin: 2px;
+  padding: 10px;
+  margin: 10px;
   height: 100px;
 }
 .pic {
@@ -84,6 +83,8 @@ ul li {
 .pic img {
   width: 100%;
   object-fit: contain;
+  border-radius: 50%;
+  border: 2px paleturquoise solid;
 }
 .info p:first-child {
   font-size: larger;
