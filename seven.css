@@ -18,9 +18,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 5%;
-  padding-right: 5%;
-  margin-left: 5%;
+  gap: 4rem;
+  padding: 4rem;
 }
 .coffeetree {
   width: 200px;
@@ -32,31 +31,38 @@ body {
   height: 100%;
 }
 
-h1 {
+.title {
   color: #cb8522;
+  font-size: 3.2rem;
+  text-align: center;
 }
 
-h3 {
+.subtitle {
   color: #444444;
+  font-size: 1.8rem;
+  text-align: center;
 }
-header {
-  margin-bottom: 30px;
+.title-wrap {
+  margin-bottom: 2em;
 }
 .coffeetree {
   z-index: -1;
 }
 .coffee-img {
   margin-bottom: 0.5em;
-  width: 90%;
+  width: 70%;
   height: auto;
 }
 .coffee-name {
-  font-size: 1rem;
-  margin-bottom: 0.4em;
+  font-size: 1.2rem;
+  margin-bottom: 0.3em;
+  font-weight: 700;
 }
 .coffee-info {
   font-size: 0.8rem;
   text-align: center;
+  width: 15rem;
+  line-height: 1.4;
 }
 
 .coffee-wrap {
