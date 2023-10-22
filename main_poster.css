@@ -16,10 +16,18 @@ body {
   max-width: 800px;
   margin-inline: auto;
 }
-.coffe-img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 1.5em;
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.page a {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: antiquewhite;
 }
 
 h1 {
@@ -34,6 +42,12 @@ h1 {
 .subtitle {
   color: #4b4b4b;
   margin-bottom: 1.5rem;
+}
+
+.coffe-img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1.5em;
 }
 
 .second-subtitle {
@@ -51,13 +65,6 @@ h1 {
   letter-spacing: 1.2px;
 }
 
-.phon-icone {
-  width: 0.7em;
-  height: 0.7em;
-  margin-right: 0.5em;
-  display: inline-block;
-}
-
 .contact-wrap {
   display: flex;
   flex-direction: row;
@@ -65,21 +72,9 @@ h1 {
   margin-bottom: 1em;
 }
 
-.page {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: end;
+.phon-icone {
+  width: 0.7em;
+  height: 0.7em;
+  margin-right: 0.5em;
+  display: inline-block;
 }
-
-.page a {
-  text-decoration: none;
-  margin: 10px;
-  padding: 10px;
-  background-color: antiquewhite;
-}
-
-/* @media screen and (max-width: 600px) {
-  body {
-    padding: 0;
-  }
-} */
