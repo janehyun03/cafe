@@ -24,6 +24,14 @@ body {
   margin: 10px;
   padding: 10px;
   background-color: antiquewhite;
+  color: #444444;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+.page a:hover,
+.page a:active {
+  background-color: #cb8522;
 }
 
 .nav {
