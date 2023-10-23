@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 
 body {
@@ -43,15 +42,6 @@ body {
   border: 1px solid black;
   margin-top: 1.5rem;
 }
-/* 
-.nav {
-  width: 100%;
-  background-color: grey;
-} */
-
-/* .info p:last-child {
-  letter-spacing: 1.2px;
-} */
 
 .contact {
   text-align: center;
@@ -60,10 +50,6 @@ body {
 }
 
 header {
-  /* display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center; */
   margin-bottom: 0.5em;
 }
 
@@ -83,7 +69,6 @@ header > p {
 
 main {
   margin-top: 2%;
-
   border: 1px solid black;
 }
 .form {
@@ -102,7 +87,6 @@ ul li {
   display: flex;
   justify-content: center;
   padding: 2%;
-  /* padding: 10px; */
   margin: 5%;
   height: 100px;
 }
@@ -148,17 +132,29 @@ iframe {
   margin: 3vh 0;
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    padding: 0;
-  }
-  iframe {
-    margin: 0;
-  }
-}
-
-@media (792px <= width <= 1507px) {
-}
-
 @media (width <= 792px) {
+  .container {
+    padding: 0 30px;
+  }
+  .pic {
+    width: 200px;
+  }
+  .info p:first-child {
+    text-align: center;
+  }
+  .info p:last-child {
+    visibility: hidden;
+  }
+  main {
+    margin-top: 24px;
+  }
+
+  .form {
+    border: 1px solid red;
+  }
+
+  form,
+  textarea {
+    width: 100%;
+  }
 }
